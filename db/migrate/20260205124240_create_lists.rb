@@ -5,6 +5,7 @@ class CreateLists < ActiveRecord::Migration[8.0]
       t.string :title
       t.string :body
       t.timestamps
+      
     end
   end
 end
